@@ -17,7 +17,7 @@ bot = telebot.TeleBot(BOT_TOKEN)
 def keep_alive():
     # Render က Deploy ပြီးရင် ပေးမယ့် URL လင့်ခ် (ဥပမာ - https://my-bot.onrender.com)
     # လောလောဆယ် Render လင့်ခ်မရသေးခင် localhost နဲ့ စမ်းထားပါမယ်
-    RENDER_APP_URL = "http://localhost:8080" 
+    RENDER_APP_URL = "https://dohofgpt.onrender.com" 
     
     while True:
         try:
